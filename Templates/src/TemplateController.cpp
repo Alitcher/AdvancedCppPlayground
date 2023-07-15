@@ -85,14 +85,14 @@ void TestTask3()
     // Implementation for TestTask3
     std::cout << "Executing TestTask3" << std::endl;
 
-    Point2D<int> point1(2, 3);
-    point1.printCoordinates(); // Output: Point Coordinates: (2, 3)
+    Point2D<int> point1(1, 2);
+    Point2D<int> point2(4, 6);
 
-    Point2D<double> point2(1.5, 4.2);
-    point2.printCoordinates(); // Output: Point Coordinates: (1.5, 4.2)
+    point1.printCoordinates();
+    point2.printCoordinates();
 
-    double distance = point1.distanceTo(point2);
-    std::cout << "Distance: " << distance << std::endl;
+    float distance = point1.distanceTo(point2);
+    std::cout << "Distance between point1 and point2: " << distance << std::endl;
 }
 
 void TestTask4()
@@ -119,6 +119,64 @@ void TestTask5()
 {
     // Implementation for TestTask5
     std::cout << "Executing TestTask5" << std::endl;
+        Matrix<int> matrix1(2, 3);
+    matrix1.setValue(0, 0, 1);
+    matrix1.setValue(0, 1, 2);
+    matrix1.setValue(0, 2, 3);
+    matrix1.setValue(1, 0, 4);
+    matrix1.setValue(1, 1, 5);
+    matrix1.setValue(1, 2, 6);
+    matrix1.print();
+    /*
+    Output:
+    1 2 3
+    4 5 6
+    */
+
+    Matrix<int> matrix2(2, 3);
+    matrix2.setValue(0, 0, 7);
+    matrix2.setValue(0, 1, 8);
+    matrix2.setValue(0, 2, 9);
+    matrix2.setValue(1, 0, 10);
+    matrix2.setValue(1, 1, 11);
+    matrix2.setValue(1, 2, 12);
+    matrix2.print();
+    /*
+    Output:
+    7 8 9
+    10 11 12
+    */
+
+    Matrix<int> matrix3 = matrix1 + matrix2;
+    matrix3.print();
+    /*
+    Output:
+    8 10 12
+    14 16 18
+    */
+
+    Matrix<int> matrix4(3, 2);
+    matrix4.setValue(0, 0, 1);
+    matrix4.setValue(0, 1, 2);
+    matrix4.setValue(1, 0, 3);
+    matrix4.setValue(1, 1, 4);
+    matrix4.setValue(2, 0, 5);
+    matrix4.setValue(2, 1, 6);
+    matrix4.print();
+    /*
+    Output:
+    1 2
+    3 4
+    5 6
+    */
+
+    Matrix<int> matrix5 = matrix1 * matrix4;
+    matrix5.print();
+    /*
+    Output:
+    22 28
+    49 64
+    */
 }
 
 void TestTask6()

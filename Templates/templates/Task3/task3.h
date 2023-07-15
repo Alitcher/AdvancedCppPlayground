@@ -1,5 +1,6 @@
 /*Write a class template for a 2D point. The class should have two members x and y, and a member function to print the point coordinates.*/
 #pragma once
+#include <cmath>
 
 template <typename T>
 class Point2D {
