@@ -1,6 +1,5 @@
 /*Write a function template that can swap two variables of any type. (Difficulty: 1)*/
-
-#include <iostream>
+#pragma once
 
 template <typename T>
 void swap(T &a, T &b) {
