@@ -99,6 +99,20 @@ void TestTask4()
 {
     // Implementation for TestTask4
     std::cout << "Executing TestTask4" << std::endl;
+    int intArray[] = {5, 8, 2, 10, 3};
+    int intSize = sizeof(intArray) / sizeof(int);
+    int maxInt = findLarger(intArray, intSize);
+    std::cout << "Max integer: " << maxInt << std::endl;
+
+    double doubleArray[] = {3.14, 2.71, 1.618, 2.5};
+    int doubleSize = sizeof(doubleArray) / sizeof(double);
+    double maxDouble = findLarger(doubleArray, doubleSize);
+    std::cout << "Max double: " << maxDouble << std::endl;
+
+    std::string stringArray[] = {"apple", "banana", "orange", "grape"};
+    int stringSize = sizeof(stringArray) / sizeof(std::string);
+    std::string maxString = findLarger(stringArray, stringSize);
+    std::cout << "Max string: " << maxString << std::endl;
 }
 
 void TestTask5()
