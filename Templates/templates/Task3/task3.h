@@ -9,6 +9,12 @@ public:
     void printCoordinates() const {
         std::cout << "Point Coordinates: (" << x << ", " << y << ")" << std::endl;
     }
+        
+    float distanceTo(const Point2D<T>& other) const {
+        T dx = x - other.x;
+        T dy = y - other.y;
+        return std::sqrt(dx * dx + dy * dy);
+    }
 
 private:
     T x;

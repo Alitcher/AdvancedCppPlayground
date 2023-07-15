@@ -90,6 +90,9 @@ void TestTask3()
 
     Point2D<double> point2(1.5, 4.2);
     point2.printCoordinates(); // Output: Point Coordinates: (1.5, 4.2)
+
+    double distance = point1.distanceTo(point2);
+    std::cout << "Distance: " << distance << std::endl;
 }
 
 void TestTask4()
