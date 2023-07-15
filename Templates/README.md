@@ -1,3 +1,11 @@
+# C++ Template Exercises
+
+This repository contains a collection of C++ template exercises of varying difficulty levels. Each exercise focuses on different aspects of template programming in C++.
+
+
+# Task List
+
+
 1. Create a simple function template that can add two numbers of any type. (Difficulty: 1)
 
 2. Write a function template that can swap two variables of any type. (Difficulty: 1)
