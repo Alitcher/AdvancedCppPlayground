@@ -30,3 +30,34 @@
 *.exe
 *.out
 *.app
+
+# Operating System files
+*~
+.DS_Store
+
+# Compiled object files
+*.o
+*.tlog
+*.log
+
+# Ignore CMake build files
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Ignore Visual Studio build files
+/Debug/
+/x64/
+
+# IDE-specific files
+.vscode/
+.vs/
+.idea/
+
+# Commonly used build directory #
+#################################
+/build*/
+/cmake-build-*/
+/install/
+/test_output/
