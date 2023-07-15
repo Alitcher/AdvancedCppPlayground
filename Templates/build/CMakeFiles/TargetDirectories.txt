@@ -1,0 +1,3 @@
+/media/alicia/Alicia/TemplateAnu/GPTExercise/AdvancedCppPlayground/Templates/build/CMakeFiles/AdvancedCppPlayground.dir
+/media/alicia/Alicia/TemplateAnu/GPTExercise/AdvancedCppPlayground/Templates/build/CMakeFiles/edit_cache.dir
+/media/alicia/Alicia/TemplateAnu/GPTExercise/AdvancedCppPlayground/Templates/build/CMakeFiles/rebuild_cache.dir

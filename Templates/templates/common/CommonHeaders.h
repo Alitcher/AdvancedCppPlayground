@@ -18,3 +18,30 @@
 #include "Task18/task18.h"
 #include "Task19/task19.h"
 #include "Task20/task20.h"
+
+extern void (*testTaskFunctions[])();
+
+void TestTask(int taskNumber);
+
+void TestTask1();
+
+void TestTask2();
+
+void TestTask3();
+void TestTask4();
+void TestTask5();
+void TestTask6();
+void TestTask7();
+void TestTask8();
+void TestTask9();
+void TestTask10();
+void TestTask11();
+void TestTask12();
+void TestTask13();
+void TestTask14();
+void TestTask15();
+void TestTask16();
+void TestTask17();
+void TestTask18();
+void TestTask19();
+void TestTask20();
