@@ -17,27 +17,27 @@ int main()
 }
 
 void (*testTaskFunctions[])() = {
-    nullptr,        // Index 0, not used
-    TestTask1,      // Index 1
-    TestTask2,      // Index 2
-    TestTask3,      // Index 3
-    TestTask4,      // Index 4
-    TestTask5,      // Index 5
-    TestTask6,      // Index 6
-    TestTask7,      // Index 7
-    TestTask8,      // Index 8
-    TestTask9,      // Index 9
-    TestTask10,     // Index 10
-    TestTask11,     // Index 11
-    TestTask12,     // Index 12
-    TestTask13,     // Index 13
-    TestTask14,     // Index 14
-    TestTask15,     // Index 15
-    TestTask16,     // Index 16
-    TestTask17,     // Index 17
-    TestTask18,     // Index 18
-    TestTask19,     // Index 19
-    TestTask20      // Index 20
+    nullptr,    // Index 0, not used
+    TestTask1,  // Index 1
+    TestTask2,  // Index 2
+    TestTask3,  // Index 3
+    TestTask4,  // Index 4
+    TestTask5,  // Index 5
+    TestTask6,  // Index 6
+    TestTask7,  // Index 7
+    TestTask8,  // Index 8
+    TestTask9,  // Index 9
+    TestTask10, // Index 10
+    TestTask11, // Index 11
+    TestTask12, // Index 12
+    TestTask13, // Index 13
+    TestTask14, // Index 14
+    TestTask15, // Index 15
+    TestTask16, // Index 16
+    TestTask17, // Index 17
+    TestTask18, // Index 18
+    TestTask19, // Index 19
+    TestTask20  // Index 20
 };
 
 void TestTask(int taskNumber)
@@ -84,6 +84,12 @@ void TestTask3()
 {
     // Implementation for TestTask3
     std::cout << "Executing TestTask3" << std::endl;
+
+    Point2D<int> point1(2, 3);
+    point1.printCoordinates(); // Output: Point Coordinates: (2, 3)
+
+    Point2D<double> point2(1.5, 4.2);
+    point2.printCoordinates(); // Output: Point Coordinates: (1.5, 4.2)
 }
 
 void TestTask4()
