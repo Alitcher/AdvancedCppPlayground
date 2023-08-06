@@ -254,7 +254,12 @@ void TestTask17()
 void TestTask18()
 {
     // Implementation for TestTask18
-    // std::cout << "Executing TestTask18" << std::endl;
+    SmartPointer<int> sp1(new int(5));
+    SmartPointer<int> sp2 = sp1;
+
+    std::cout << *sp1 << std::endl;
+    std::cout << *sp2 << std::endl;
+    std::cout << "Executing TestTask18" << std::endl;
 }
 
 void TestTask19()
