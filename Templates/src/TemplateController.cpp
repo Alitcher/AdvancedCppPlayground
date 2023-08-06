@@ -119,7 +119,7 @@ void TestTask5()
 {
     // Implementation for TestTask5
     std::cout << "Executing TestTask5" << std::endl;
-        Matrix<int> matrix1(2, 3);
+    Matrix<int> matrix1(2, 3);
     matrix1.setValue(0, 0, 1);
     matrix1.setValue(0, 1, 2);
     matrix1.setValue(0, 2, 3);
@@ -182,89 +182,89 @@ void TestTask5()
 void TestTask6()
 {
     // Implementation for TestTask6
-    std::cout << "Executing TestTask6" << std::endl;
+    // std::cout << "Executing TestTask6" << std::endl;
 }
 
 void TestTask7()
 {
     // Implementation for TestTask7
-    std::cout << "Executing TestTask7" << std::endl;
+    // std::cout << "Executing TestTask7" << std::endl;
 }
 
 void TestTask8()
 {
     // Implementation for TestTask8
-    std::cout << "Executing TestTask8" << std::endl;
+    // std::cout << "Executing TestTask8" << std::endl;
 }
 
 void TestTask9()
 {
     // Implementation for TestTask9
-    std::cout << "Executing TestTask9" << std::endl;
+    // std::cout << "Executing TestTask9" << std::endl;
 }
 
 void TestTask10()
 {
     // Implementation for TestTask10
-    std::cout << "Executing TestTask10" << std::endl;
+    // std::cout << "Executing TestTask10" << std::endl;
 }
 
 void TestTask11()
 {
     // Implementation for TestTask11
-    std::cout << "Executing TestTask11" << std::endl;
+    // std::cout << "Executing TestTask11" << std::endl;
 }
 
 void TestTask12()
 {
     // Implementation for TestTask12
-    std::cout << "Executing TestTask12" << std::endl;
+    // std::cout << "Executing TestTask12" << std::endl;
 }
 
 void TestTask13()
 {
     // Implementation for TestTask13
-    std::cout << "Executing TestTask13" << std::endl;
+    // std::cout << "Executing TestTask13" << std::endl;
 }
 
 void TestTask14()
 {
     // Implementation for TestTask14
-    std::cout << "Executing TestTask14" << std::endl;
+    // std::cout << "Executing TestTask14" << std::endl;
 }
 
 void TestTask15()
 {
     // Implementation for TestTask15
-    std::cout << "Executing TestTask15" << std::endl;
+    // std::cout << "Executing TestTask15" << std::endl;
 }
 
 void TestTask16()
 {
     // Implementation for TestTask16
-    std::cout << "Executing TestTask16" << std::endl;
+    // std::cout << "Executing TestTask16" << std::endl;
 }
 
 void TestTask17()
 {
     // Implementation for TestTask17
-    std::cout << "Executing TestTask17" << std::endl;
+    // std::cout << "Executing TestTask17" << std::endl;
 }
 
 void TestTask18()
 {
     // Implementation for TestTask18
-    std::cout << "Executing TestTask18" << std::endl;
+    // std::cout << "Executing TestTask18" << std::endl;
 }
 
 void TestTask19()
 {
     // Implementation for TestTask19
-    std::cout << "Executing TestTask19" << std::endl;
+    // std::cout << "Executing TestTask19" << std::endl;
 }
 
 void TestTask20()
 {
     // Implementation for TestTask20
-    std::cout << "Executing TestTask20" << std::endl;
+    // std::cout << "Executing TestTask20" << std::endl;
 }
