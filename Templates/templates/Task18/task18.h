@@ -5,12 +5,12 @@ class SmartPointer
 {
 private:
     T *ptr;
-    unsigned refCount;
+    unsigned int refCount;
 
 public:
-    SmartPointer(T *p = nullptr) : p(p)
+    SmartPointer(T *p = nullptr) : ptr(p)
     {
-        refCount = new unsigned(1);
+        refCount = new unsigned int(1); // allocation
     }
 
     SmartPointer(const SmartPointer &other)
@@ -41,7 +41,7 @@ public:
         return ptr;
     }
 
-    &SmartPointer operator=(const SmartPointer &other)
+    SmartPointer& operator=(const SmartPointer &other)
     {
         if (this != &other)
         {
