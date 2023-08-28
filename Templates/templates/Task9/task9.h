@@ -1,0 +1,1 @@
+/*Implement a generic function that takes a lambda function as argument and applies this function to a given value.*/

@@ -1,0 +1,1 @@
+/*Implement a function template that accepts a functor. Use this template to find the maximum and minimum values in a collection. */

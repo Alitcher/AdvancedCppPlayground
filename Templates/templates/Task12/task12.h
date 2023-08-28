@@ -1,0 +1,1 @@
+/*Write a class template for a simple hash table implementation.*/

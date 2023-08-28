@@ -1,0 +1,1 @@
+/*Implement a generic version of the Observer pattern using templates. */

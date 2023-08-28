@@ -1,0 +1,1 @@
+/*Implement a custom allocator using class template for a dynamic array data structure.*/

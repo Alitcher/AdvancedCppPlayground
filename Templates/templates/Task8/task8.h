@@ -1,0 +1,1 @@
+/*Create a class template for a stack data structure. Implement functions for push, pop, and top operations.*/

@@ -1,0 +1,1 @@
+/*Create a class template for a linked list. Implement functions to add an element, remove an element, and display the list.*/

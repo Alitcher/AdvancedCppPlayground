@@ -1,0 +1,1 @@
+/*Write a class template for a simple binary tree. Implement member functions for adding elements and traversing the tree.*/

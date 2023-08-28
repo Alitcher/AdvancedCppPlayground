@@ -1,0 +1,1 @@
+/*Write a function template that takes an array of any type and an operation, and applies the operation to all elements of the array.*/

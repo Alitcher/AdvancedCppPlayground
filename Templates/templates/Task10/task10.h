@@ -1,0 +1,1 @@
+/*Implement a template version of a function that can count the number of occurrences of a particular value in an array of elements of any type. */
