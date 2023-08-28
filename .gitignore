@@ -61,4 +61,4 @@
 /cmake-build-*/
 /install/
 /test_output/
-Templates/build/*
+/Templates/build/*
